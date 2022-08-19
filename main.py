@@ -13,9 +13,9 @@ print("Bienvenue",CodeTA)"""
 
 #3e partie
 
-prixHT = input("Entrez un prix HT :")
+"""prixHT = input("Entrez un prix HT :")
 prixHT = int(prixHT)
 
 prixTTC = prixHT + (prixHT*20/100)
 
-print("Print TTC =", prixTTC)
+print("Print TTC =", prixTTC)"""
