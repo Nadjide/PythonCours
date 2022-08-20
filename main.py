@@ -36,3 +36,17 @@ calcul2 = int(calcul2)
 print("Résultat =", calcul, "est le reste =", calcul2)
 """
 
+identifiant = "Gael"
+mdp = "CTA19"
+
+user_id = input("Quel est votre identifiant ?")
+mdp_id = input("Quel est votre mot de passe ? ")
+
+if user_id == identifiant and mdp_id == mdp:
+    print("Vous êtes connecté",user_id)
+elif user_id != identifiant and mdp_id == mdp:
+    print("Identifiant erroné")
+elif user_id == identifiant and mdp_id != mdp:
+    print("mot de passe est erroné")
+else:
+    print("Vos informations sont erronées")
