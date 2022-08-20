@@ -19,3 +19,9 @@ prixHT = int(prixHT)
 prixTTC = prixHT + (prixHT*20/100)
 
 print("Print TTC =", prixTTC)"""
+
+
+valeur_booleen = True
+valeur_booleen = str(valeur_booleen)
+
+print(valeur_booleen)
