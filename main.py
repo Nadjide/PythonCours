@@ -20,8 +20,19 @@ prixTTC = prixHT + (prixHT*20/100)
 
 print("Print TTC =", prixTTC)"""
 
-
+""""
 valeur_booleen = True
 valeur_booleen = str(valeur_booleen)
 
-print(valeur_booleen)
+print(valeur_booleen)"""
+
+
+#Opérations
+""""
+calcul = 10 / 2
+calcul = float(calcul)
+calcul2 = 10 % 4
+calcul2 = int(calcul2)
+print("Résultat =", calcul, "est le reste =", calcul2)
+"""
+
