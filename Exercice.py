@@ -32,23 +32,30 @@ else:print("D'accord vous allez être deconnecté", id_user," au revoir !")
 import time
 
 jeu = input("Voulez vous lancer  Asphlat 7 ?")
-print("Le jeu démarre ..")
-time.sleep(5)
+if jeu=="oui" or jeu=="Oui":
+    print("Le jeu démarre ..")
+    time.sleep(5)
+    print("Bonne session :)")
+    time.sleep(5)
+    while jeu:
+        choix = input("Voulez vous continuer à jouer ?")
+        if choix == "oui":
+            continue
+        elif choix == "non" or choix == "Non":
+            print("le jeu est stoppé")
+            break
+        elif choix == "pause":
+            print("Le jeu est en pause !")
+            time.sleep(5)
+            while choix:
+                pause = input("voulez vous sortir de la pause ?")
+                if pause == "oui":
+                    print("bonne session")
+                    time.sleep(5)
+                    break
+                else:
+                    time.sleep(3)
+                    continue
+else:print("Le jeu n'a pas démarrer")
 
-while jeu:
-    choix = input("Voulez vous continuer à jouer ?")
-    if choix =="oui":
-        continue
-    elif choix == "non":
-        print("le jeu est stoppé")
-        break
-    elif choix =="pause":
-        print("Le jeu est en pause !")
-        time.sleep(5)
-        while choix:
-            pause=input("voulez vous sortir de la pause ?")
-            if pause=="oui":
-                break
-            else:
-                time.sleep(3)
-                continue
+
