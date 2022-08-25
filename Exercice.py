@@ -28,7 +28,8 @@ if besoin == "oui" or besoin == "Oui":
 else:print("D'accord vous allez être deconnecté", id_user," au revoir !")
 """
 
-#boucle while
+""""
+#boucle while / for 
 import time
 
 jeu = input("Voulez vous lancer  Asphlat 7 ?")
@@ -57,5 +58,5 @@ if jeu=="oui" or jeu=="Oui":
                     time.sleep(3)
                     continue
 else:print("Le jeu n'a pas démarrer")
-
+"""
 

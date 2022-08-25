@@ -50,9 +50,18 @@ else:
 """
 mots clés = break(casse la boucle) / continue ( revient au debut de la boucle ) 
 i++
+boucles while et for
 
 i = 0
 while i < 5:
     print(i)
     i += 1
+
+sentence = "Bonjour mozart capitaine jackson !"
+
+for letter in sentence:
+    print(letter)
 """
+
+#Fonction
+
