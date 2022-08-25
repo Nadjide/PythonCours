@@ -1,6 +1,6 @@
-#Exercice en python
+#Exercice 1 en python
 
-
+"""
 id_user = input("Nom d'utilisateur ?")
 mdp_user = input("Votre mot de passe ?")
 
@@ -26,3 +26,29 @@ if besoin == "oui" or besoin == "Oui":
         print(resultat)
     else:print("Veuillez choisir un opérateur valide !")
 else:print("D'accord vous allez être deconnecté", id_user," au revoir !")
+"""
+
+#boucle
+import time
+
+jeu = input("Voulez vous lancer  Asphlat 7 ?")
+print("Le jeu démarre ..")
+time.sleep(5)
+
+while jeu:
+    choix = input("Voulez vous continuer à jouer ?")
+    if choix =="oui":
+        continue
+    elif choix == "non":
+        print("le jeu est stoppé")
+        break
+    elif choix =="pause":
+        print("Le jeu est en pause !")
+        time.sleep(5)
+        while choix:
+            pause=input("voulez vous sortir de la pause ?")
+            if pause=="oui":
+                break
+            else:
+                time.sleep(3)
+                continue

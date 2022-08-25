@@ -29,7 +29,7 @@ calcul2 = 10 % 4
 calcul2 = int(calcul2)
 print("Résultat =", calcul, "est le reste =", calcul2)
 """
-
+""""
 identifiant = "Gael"
 mdp = "CTA19"
 
@@ -44,3 +44,15 @@ elif user_id == identifiant and mdp_id != mdp:
     print("mot de passe est erroné")
 else:
     print("Vos informations sont erronées")
+"""
+
+#boucles
+"""
+mots clés = break(casse la boucle) / continue ( revient au debut de la boucle ) 
+i++
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+"""
