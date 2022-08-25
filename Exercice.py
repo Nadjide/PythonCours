@@ -28,7 +28,7 @@ if besoin == "oui" or besoin == "Oui":
 else:print("D'accord vous allez être deconnecté", id_user," au revoir !")
 """
 
-#boucle
+#boucle while
 import time
 
 jeu = input("Voulez vous lancer  Asphlat 7 ?")
