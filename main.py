@@ -64,4 +64,21 @@ for letter in sentence:
 """
 
 #Fonction
+""""
+def dire(nom_personne, message_personne):
+    print("{} : {}".format(nom_personne,message_personne))
+dire("Brandon", "Bonjou à tous")
+dire("Thomas","Hellllllllllo")
 
+
+def show_inventory(*list_items):
+    for item in list_items:
+        print(item)
+
+show_inventory("epée")
+show_inventory("epée", "arc","Tir a l'arc")
+
+def calculer_somme(nombre1,nombre2):
+    return nombre1 + nombre2
+print(calculer_somme(23,45))
+"""

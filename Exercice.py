@@ -60,3 +60,11 @@ if jeu=="oui" or jeu=="Oui":
 else:print("Le jeu n'a pas démarrer")
 """
 
+""""
+def personnage(*Cara):
+    for caracte in Cara:
+        print(caracte)
+personnage("120 PV","500 atk","100 Def")
+"""
+
+
